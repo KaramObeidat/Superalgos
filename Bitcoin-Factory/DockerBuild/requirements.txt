@@ -11,3 +11,5 @@ tensorboard==2.10.1
 tensorflow==2.10.0
 tensorflow-probability==0.18.0
 numpy==1.23.3
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
